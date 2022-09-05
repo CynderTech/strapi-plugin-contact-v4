@@ -1,3 +1,6 @@
 'use strict';
+const message = require('./message');
 
-module.exports = {};
+module.exports = {
+  message
+};

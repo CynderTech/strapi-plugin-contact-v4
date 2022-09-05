@@ -1,7 +1,7 @@
 'use strict';
 
-const myService = require('./my-service');
+const message = require('./message');
 
 module.exports = {
-  myService,
+  message,
 };

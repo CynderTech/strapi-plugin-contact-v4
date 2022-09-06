@@ -1,24 +1,28 @@
 {
-  "name": "contact",
-  "version": "0.0.0",
-  "description": "This is the description of the plugin.",
-  "strapi": {
-    "name": "contact",
-    "description": "Description of contact plugin",
-    "kind": "plugin"
-  },
+	"name": "strapi-plugin-contact-v4",
+	"version": "0.0.0",
+	"description": "Basic back-end functionality for a Contact Us form",
+	"strapi": {
+		"name": "Contact Us",
+		"description": "Basic back-end functionality for a Contact Us form",
+		"kind": "plugin"
+	},
   "dependencies": {},
   "author": {
-    "name": "CynderTech Corp."
-  },
-  "maintainers": [
-    {
-      "name": "CynderTech Corp."
-    }
-  ],
-  "engines": {
-    "node": ">=12.x.x <=16.x.x",
-    "npm": ">=6.0.0"
-  },
+		"name": "Cynder",
+		"email": "hello@cynder.io",
+		"url": "https://www.cynder.io"
+	},
+	"maintainers": [
+		{
+			"name": "Cynder",
+			"email": "hello@cynder.io",
+			"url": "https://www.cynder.io"
+		}
+	],
+	"engines": {
+		"node": ">=12.x.x <=16.x.x",
+		"npm": ">=6.0.0"
+	},
   "license": "MIT"
 }

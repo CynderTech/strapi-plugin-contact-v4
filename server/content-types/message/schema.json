@@ -4,16 +4,12 @@
 	"info": {
 		"singularName": "message",
 		"pluralName": "messages",
-		"displayName": "message"
+		"displayName": "Message"
 	},
 	"options": {
 		"comment": "",
 		"draftAndPublish": false,
-		"increments": true,
-		"timestamps": [
-      "createdAt",
-      "updatedAt"
-    ]
+		"increments": true
 	},
 	"attributes": {
 		"name": {

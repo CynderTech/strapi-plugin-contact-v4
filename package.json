@@ -3,12 +3,12 @@
 	"version": "0.0.0",
 	"description": "Basic back-end functionality for a Contact Us form",
 	"strapi": {
-		"name": "Contact Us",
+		"name": "Contact",
 		"description": "Basic back-end functionality for a Contact Us form",
 		"kind": "plugin"
 	},
-  "dependencies": {},
-  "author": {
+	"dependencies": {},
+	"author": {
 		"name": "Cynder",
 		"email": "hello@cynder.io",
 		"url": "https://www.cynder.io"
@@ -24,5 +24,5 @@
 		"node": ">=12.x.x <=16.x.x",
 		"npm": ">=6.0.0"
 	},
-  "license": "MIT"
+	"license": "MIT"
 }

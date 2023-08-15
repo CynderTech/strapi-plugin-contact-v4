@@ -11,9 +11,8 @@
 
 /* eslint-disable import/no-extraneous-dependencies */
 
-const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('plugin::strapi-plugin-contact-v4.message', ({ strapi }) => ({
+module.exports = ({
 	/**
 	 * Promise to count records
 	 *
@@ -71,4 +70,4 @@ module.exports = createCoreController('plugin::strapi-plugin-contact-v4.message'
 	async delete(id) {
 		return strapi.entityService.delete('plugin::strapi-plugin-contact-v4.message', id);
 	},
-}));
+});

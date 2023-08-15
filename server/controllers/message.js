@@ -23,7 +23,7 @@ const sanitizeOutput = (entity, ctx) => {
 	return sanitize.contentAPI.output(entity, messageSchema, ctx);
 };
 
-module.exports = createCoreController('plugin::strapi-plugin-contact-v4.message', ({ strapi }) => ({
+module.exports = ({
 	/**
 	 * Count records.
 	 *
@@ -89,4 +89,4 @@ module.exports = createCoreController('plugin::strapi-plugin-contact-v4.message'
 
 		return sanitizeOutput(entity, ctx);
 	},
-}));
+});
